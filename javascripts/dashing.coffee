@@ -91,7 +91,6 @@ Dashing.AnimatedValue =
 Dashing.widgets = widgets = {}
 Dashing.lastEvents = lastEvents = {}
 Dashing.debugMode = false
-Dashing.disableEvent = false
 
 source = new EventSource('events')
 if !Dashing.disableEvent
